@@ -16,10 +16,6 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-background/70 to-transparent" />
 
       <div className="relative z-10 container mx-auto px-4 md:px-8 text-center md:text-left max-w-5xl">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-medium mb-6">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          Service Auto Premium
-        </div>
         <h1
           className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6"
           style={{ fontFamily: "'Space Grotesk', sans-serif" }}
