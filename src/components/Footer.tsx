@@ -42,13 +42,13 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:+40700000000" className="text-muted-foreground hover:text-primary transition-colors">
-                  +40 700 000 000
+                <a href="tel:+40748018401" className="text-muted-foreground hover:text-primary transition-colors">
+                  +40 748 018 401
                 </a>
               </div>
               <div className="pt-2 text-muted-foreground text-sm">
                 <p>Luni – Vineri: 08:00 – 18:00</p>
-                <p>Sâmbătă: 09:00 – 14:00</p>
+                
               </div>
             </div>
           </div>
