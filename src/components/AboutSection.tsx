@@ -1,13 +1,5 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { CheckCircle } from "lucide-react";
 import aboutImg from "@/assets/about-team.jpg";
-
-const highlights = [
-  "Echipamente de ultimă generație",
-  "Mecanici certificați cu 10+ ani experiență",
-  "Servicii complete pentru orice autovehicul",
-  "Transparență totală în comunicare",
-];
 
 export default function AboutSection() {
   const { ref, isVisible } = useScrollReveal();
@@ -38,21 +30,20 @@ export default function AboutSection() {
             className="text-3xl md:text-4xl font-bold mb-6 leading-tight"
             style={{ fontFamily: "'Space Grotesk', sans-serif" }}
           >
-            Servicii Auto Complete
+            Partenerul tău de încredere
             <br />
-            <span className="text-muted-foreground">în București — Sector 1 & 2</span>
+            <span className="text-muted-foreground">pentru orice intervenție auto</span>
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            La Autohub Service Pipera, fiecare intervenție este realizată cu precizie, responsabilitate și atenție la
-            detalii. Oferim soluții complete pentru orice tip de autovehicul, indiferent de complexitatea lucrării.
-          </p>
-          <div className="grid gap-3">
-            {highlights.map((h) => (
-              <div key={h} className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="text-foreground">{h}</span>
-              </div>
-            ))}
+          <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
+            <p>
+              La Autohub, nu oferim doar reparații — oferim liniște, siguranță și transparență. Fiecare mașină care intră în service este tratată cu responsabilitate maximă, indiferent de complexitatea lucrării.
+            </p>
+            <p>
+              Operăm în nordul Bucureștiului, deservind clienți din Sector 1 și Sector 2, într-o locație modernă, echipată conform standardelor actuale din industrie.
+            </p>
+            <p>
+              Prin integrarea serviciilor de mecanică, electrică și estetică auto (prin Central Paint Service), oferim un flux complet — de la diagnostic la livrarea finală.
+            </p>
           </div>
         </div>
       </div>

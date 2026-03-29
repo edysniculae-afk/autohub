@@ -1,8 +1,13 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import ProcessSection from "@/components/ProcessSection";
 import ServicesSection from "@/components/ServicesSection";
-import WhyUsSection from "@/components/WhyUsSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import ClientTypesSection from "@/components/ClientTypesSection";
+import InfoGridSection from "@/components/InfoGridSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import DifferentiatorSection from "@/components/DifferentiatorSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -13,8 +18,13 @@ const Index = () => {
       <Header />
       <HeroSection />
       <AboutSection />
+      <ProcessSection />
       <ServicesSection />
-      <WhyUsSection />
+      <GuaranteeSection />
+      <ClientTypesSection />
+      <InfoGridSection />
+      <TestimonialsSection />
+      <DifferentiatorSection />
       <ContactSection />
       <Footer />
       <FloatingButtons />

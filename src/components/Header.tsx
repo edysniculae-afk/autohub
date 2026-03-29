@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo-autohub.png";
 
 const navLinks = [
   { label: "Acasă", href: "#hero" },
@@ -28,9 +29,7 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-16 md:h-20">
         <a href="#hero" className="flex items-center gap-2">
-          <span className="text-xl md:text-2xl font-bold tracking-tight" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            <span className="text-primary">Auto</span>hub
-          </span>
+          <img src={logo} alt="Autohub Service Pipera" className="h-10 md:h-12 w-auto" />
         </a>
 
         <nav className="hidden md:flex items-center gap-1">
