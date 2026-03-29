@@ -48,7 +48,7 @@ export default function Footer() {
               </div>
               <div className="pt-2 text-muted-foreground text-sm">
                 <p>Luni – Vineri: 08:00 – 18:00</p>
-                <p>Sâmbătă: 09:00 – 14:00</p>
+                
               </div>
             </div>
           </div>
