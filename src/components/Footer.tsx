@@ -46,12 +46,6 @@ export default function Footer() {
                   +40 700 000 000
                 </a>
               </div>
-              <div className="flex items-center gap-3 text-sm">
-                <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="mailto:contact@autohubservice.ro" className="text-muted-foreground hover:text-primary transition-colors">
-                  contact@autohubservice.ro
-                </a>
-              </div>
               <div className="pt-2 text-muted-foreground text-sm">
                 <p>Luni – Vineri: 08:00 – 18:00</p>
                 <p>Sâmbătă: 09:00 – 14:00</p>
