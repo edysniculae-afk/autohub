@@ -15,7 +15,7 @@ export default function FloatingButtons() {
         </svg>
       </a>
       <a
-        href="tel:+40700000000"
+        href="tel:+40748018401"
         className="w-14 h-14 rounded-full bg-primary hover:bg-primary/90 flex items-center justify-center shadow-lg shadow-primary/30 transition-all hover:scale-110"
         aria-label="Telefon"
       >

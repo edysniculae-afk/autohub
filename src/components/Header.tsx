@@ -68,8 +68,10 @@ export default function Header() {
                 {l.label}
               </a>
             ))}
-            <a href="#contact" onClick={() => setMenuOpen(false)}>
-              <Button className="w-full mt-2 bg-primary hover:bg-primary/90">Programează-te</Button>
+            <a href="tel:+40748018401" onClick={() => setMenuOpen(false)}>
+              <Button className="w-full mt-2 bg-primary hover:bg-primary/90 gap-2">
+                <Phone className="w-4 h-4" /> 0748 018 401
+              </Button>
             </a>
           </nav>
         </div>
