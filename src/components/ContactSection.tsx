@@ -52,10 +52,10 @@ export default function ContactSection() {
             className="text-3xl md:text-5xl font-bold mb-4"
             style={{ fontFamily: "'Space Grotesk', sans-serif" }}
           >
-            Programează-te acum
+            Ai o problemă sau vrei doar o verificare?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Ai nevoie de o verificare, o reparație sau o estimare de cost? Echipa Autohub Service Pipera este pregătită să te ajute.
+            Nu aștepta să devină costisitoare. Autohub Service Pipera — soluții corecte, fără complicații.
           </p>
         </div>
 

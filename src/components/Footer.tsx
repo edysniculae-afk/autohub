@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import logo from "@/assets/logo-autohub.png";
 
 const quickLinks = [
   { label: "Mecanică Auto", href: "#servicii" },
@@ -15,12 +16,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-8 py-16">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <h3
-              className="text-2xl font-bold mb-4"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
-              <span className="text-primary">Auto</span>hub
-            </h3>
+            <img src={logo} alt="Autohub Service Pipera" className="h-12 w-auto mb-4" />
             <p className="text-muted-foreground leading-relaxed mb-6">
               Service auto premium în București. Calitate de dealer, prețuri corecte, comunicare transparentă.
             </p>
