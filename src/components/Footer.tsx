@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 import logo from "@/assets/logo-autohub.png";
 
 const quickLinks = [
@@ -44,12 +44,6 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <a href="tel:+40700000000" className="text-muted-foreground hover:text-primary transition-colors">
                   +40 700 000 000
-                </a>
-              </div>
-              <div className="flex items-center gap-3 text-sm">
-                <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="mailto:contact@autohubservice.ro" className="text-muted-foreground hover:text-primary transition-colors">
-                  contact@autohubservice.ro
                 </a>
               </div>
               <div className="pt-2 text-muted-foreground text-sm">
