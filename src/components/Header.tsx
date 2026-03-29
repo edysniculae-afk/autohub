@@ -44,16 +44,11 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-3">
-          <a href="tel:+40700000000">
-            <Button variant="outline" size="sm" className="gap-2 border-primary/30 text-primary hover:bg-primary/10">
-              <Phone className="w-4 h-4" /> Sună acum
-            </Button>
-          </a>
-          <a href="#contact">
-            <Button size="sm" className="bg-primary hover:bg-primary/90">Programează-te</Button>
-          </a>
-        </div>
+        <a href="tel:+40748018401" className="hidden md:flex">
+          <Button variant="outline" size="sm" className="gap-2 border-primary/30 text-primary hover:bg-primary/10">
+            <Phone className="w-4 h-4" /> 0748 018 401
+          </Button>
+        </a>
 
         <button className="md:hidden p-2" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
