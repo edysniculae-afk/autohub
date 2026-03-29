@@ -37,7 +37,7 @@ export default function HeroSection() {
               Programează-te <ArrowRight className="w-5 h-5" />
             </Button>
           </a>
-          <a href="tel:+40700000000">
+          <a href="tel:+40748018401">
             <Button size="lg" variant="outline" className="gap-2 border-primary/30 text-primary hover:bg-primary/10 text-base px-8 h-12 w-full sm:w-auto">
               <PhoneCall className="w-5 h-5" /> Solicită ofertă
             </Button>
