@@ -50,8 +50,8 @@ export default function ContactSection() {
               <Clock className="w-7 h-7 text-primary" />
             </div>
             <h4 className="font-semibold text-lg">Program</h4>
-            <p className="text-muted-foreground">Luni – Vineri: 08:00 – 18:00</p>
-            <p className="text-muted-foreground">Sâmbătă: 09:00 – 14:00</p>
+            <p className="text-muted-foreground">Luni – Vineri: 08:00 – 17:00</p>
+            <p className="text-muted-foreground">{"\n"}</p>
           </div>
         </div>
 
