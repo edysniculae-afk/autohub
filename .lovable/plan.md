@@ -1,63 +1,62 @@
+# Restructurare completă Autohub Service Pipera
 
+## Ce se schimbă
 
-# Autohub Service Pipera — Website Premium
+### 1. Culori: de la albastru electric la portocaliu
 
-## Overview
-Website modern, premium pentru un service auto din București, cu design inspirat de dealeri auto high-end (BMW/Mercedes feel). Culori: negru, alb, gri închis + albastru electric. Mobile-first, animații subtile, orientat spre conversie.
+- `--primary` devine portocaliu (aprox. `30 90% 55%` HSL — matching logo-ul uploadat `#F5A623`-like)
+- `--accent` la fel portocaliu
+- Background rămâne dark, text alb
 
-## Structura & Funcționalități
+### 2. Logo — înlocuire text cu imaginea uploadată
 
-### 1. Header & Navigare
-- Logo "Autohub Service Pipera" 
-- Meniu sticky cu navigare smooth scroll
-- Butoane floating sticky: Call + WhatsApp (colț dreapta jos)
+- Copiere `Logo_Autohub_color.png` în `src/assets/`
+- Folosire în Header (navbar) și Footer ca `<img>` în loc de text
 
-### 2. Hero Section
-- Fundal cinematic cu overlay gradient negru
-- Titlu mare: „Autohub Service Pipera"
-- Subtitlu: „Service auto premium în București"
-- 2 CTA-uri: „Programează-te" + „Solicită ofertă"
-- Imagine AI generată: service auto modern, iluminare cinematică
+### 3. Secțiuni noi (înlocuiesc About + WhyUs cu conținut mult mai bogat)
 
-### 3. Despre Noi
-- Text despre servicii complete în București
-- Imagine AI: echipă de mecanici profesioniști
-- Layout split (text + imagine)
+Pagina va avea structura:
 
-### 4. Secțiuni Servicii (7 secțiuni)
-Fiecare cu icon modern, imagine AI, listă servicii, și CTA:
-- **Mecanică Auto** — toate cele 12 servicii listate
-- **Electrică Auto** — diagnoză, ECU, senzori, multimedia etc.
-- **Tinichigerie & Vopsitorie** — caroserie, ceramic coating, detailing etc.
-- **Daune & Asigurare** — proces complet, highlight „Tu predai mașina..."
-- **Vulcanizare** — montaj, echilibrare, geometrie, vânzare
-- **ITP** — inspecție tehnică rapidă
-- **Piese Auto** — originale + aftermarket cu garanție
+1. **Header** — cu logo imagine
+2. **Hero Section** — păstrat, culori actualizate
+3. **Despre Noi** (nou) — text extins cu 3 paragrafe despre Autohub
+4. **Procesul Nostru** (nou) — 5 pași vizuali (timeline/stepper): Programare → Diagnoză → Ofertă → Execuție → Control
+5. **Servicii** — păstrat (7 servicii), dar culorile se actualizează automat prin CSS vars
+6. **Garanție & Calitate** (nou) — 4 bullet points + text
+7. **Tipuri de Clienți** (nou) — B2C + B2B, 5 categorii cu iconuri
+8. **Timp & Eficiență** (nou) — 3 puncte
+9. **Consultanță Auto** (nou) — 4 puncte
+10. **Transparență Totală** (nou) — 4 puncte
+11. **Dotări & Tehnologie** (nou) — 4 puncte echipamente
+12. **Acoperire & Accesibilitate** (nou) — adresă + zone deservite
+13. **Testimoniale** (nou) — hook text + placeholder review-uri
+14. **Diferențiator** (nou) — "De ce Autohub nu este un service obișnuit" — 4 puncte
+15. **CTA Final / Contact** — upgraded cu text nou
+16. **Footer** — cu logo imagine
 
-### 5. De Ce Noi (Highlight Section)
-- 4 carduri cu iconuri: Transparență, Tehnologie, Experiență 10+ ani, Comunicare
-- Design vizual distinctiv cu accent albastru electric
+### 4. Imagini AI
 
-### 6. CTA Final + Contact
-- Formular contact funcțional (nume, telefon, mesaj) cu validare
-- Telefon clickable
-- Adresă: Șoseaua Petricani nr. 86A, București
-- Buton WhatsApp
+- Regenerare imagini mai realiste (service auto real, nu futuristic)
+- Focus pe conținutul secțiunii (mecanici la lucru, echipamente reale, nu hale SF)
+- Imagini generate cu prompt-uri care cer "realistic photograph, actual auto repair shop, natural lighting"
 
-### 7. Footer
-- Info contact, link-uri rapide, program lucru
+## Fișiere modificate
 
-## Design System
-- **Culori**: Background negru/gri închis (#0a0a0a, #1a1a1a), text alb, accent albastru electric (#2563EB)
-- **Font**: Inter (body) + font elegant pentru headings
-- **Animații**: Fade-in on scroll, hover effects pe carduri și butoane, scale subtil
-- **Layout**: Secțiuni spațiate generos, carduri cu border subtil
+- `src/index.css` — schimbare primary color la portocaliu
+- `src/components/Header.tsx` — logo imagine
+- `src/components/Footer.tsx` — logo imagine
+- `src/components/HeroSection.tsx` — text actualizat
+- `src/components/AboutSection.tsx` — conținut complet nou
+- `src/components/WhyUsSection.tsx` — înlocuit cu secțiune Diferențiator
+- `src/components/ContactSection.tsx` — CTA upgraded
+- **Componente noi**: `ProcessSection.tsx`, `GuaranteeSection.tsx`, `ClientTypesSection.tsx`, `TimeEfficiencySection.tsx`, `ConsultingSection.tsx`, `TransparencySection.tsx`, `EquipmentSection.tsx`, `CoverageSection.tsx`, `TestimonialsSection.tsx`, `DifferentiatorSection.tsx`
+- `src/pages/Index.tsx` — import și ordonare toate secțiunile noi
+- Regenerare imagini assets cu prompt-uri realiste
+- `mem://` — actualizare culori la portocaliu
 
-## Imagini
-- Se vor folosi imagini placeholder de calitate (Unsplash) pentru service auto, mecanici, echipamente — imagini realiste, cinematice, fără logo-uri vizibile
+## Detalii tehnice
 
-## SEO & Performance
-- Meta tags, titluri semantice H1-H3
-- Lazy loading imagini
-- Structură HTML semantică
-
+- Secțiunile noi vor folosi aceleași pattern-uri: `useScrollReveal`, layout-uri cu grid, iconuri Lucide, Space Grotesk headings
+- Multe secțiuni sunt text + bullet points — le grupăm vizual câte 2-3 pe ecran pentru a nu fi prea lung (secțiunile mici precum Timp, Consultanță, Transparență pot fi combinate în grid-uri 2-col)
+- Portocaliu logo: ~`hsl(33, 90%, 55%)` derivat din logo
+- Tot continutul va fi imbinat bine in pagina, la fel si graficile 
