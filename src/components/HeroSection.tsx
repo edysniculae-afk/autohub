@@ -28,11 +28,6 @@ export default function HeroSection() {
           Service auto premium în București. Mecanică, electrică, tinichigerie & vopsitorie — totul sub un singur acoperiș.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <a href="#contact">
-            <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90 text-base px-8 h-12 w-full sm:w-auto">
-              Programează-te <ArrowRight className="w-5 h-5" />
-            </Button>
-          </a>
           <a href="tel:+40748018401">
             <Button size="lg" variant="outline" className="gap-2 border-primary/30 text-primary hover:bg-primary/10 text-base px-8 h-12 w-full sm:w-auto">
               <PhoneCall className="w-5 h-5" /> Solicită ofertă
