@@ -40,7 +40,7 @@ export const services: Service[] = [
     icon: Wrench,
     title: "Mecanică Auto",
     subtitle: "Reparații Mecanice Profesionale. Performanță și Siguranță.",
-    metaTitle: "Mecanică Auto București - Reparații Profesionale | Autohub Pipera",
+    metaTitle: "Mecanică Auto București | Autohub Service Pipera",
     metaDescription:
       "Reparații mecanice profesionale în București. Schimb distribuție, revizie completă, frâne, suspensie, turbo. Programare rapidă la Autohub Service Pipera.",
     image: mechanicsImg,
@@ -85,8 +85,7 @@ export const services: Service[] = [
     icon: Zap,
     title: "Electrică Auto",
     subtitle: "Diagnoză Avansată și Reparații Electrice de Precizie",
-    metaTitle:
-      "Electrică Auto București - Diagnoză & Reparații Electrice | Autohub Pipera",
+    metaTitle: "Electrică Auto București | Autohub Service Pipera",
     metaDescription:
       "Diagnoză computerizată și reparații electrice auto în București. ECU, senzori, instalație electrică, alternator, multimedia. Autohub Service Pipera.",
     image: electricalImg,
@@ -129,8 +128,7 @@ export const services: Service[] = [
     icon: Paintbrush,
     title: "Tinichigerie & Vopsitorie",
     subtitle: "Aspect Impecabil. Finisaje Premium.",
-    metaTitle:
-      "Tinichigerie & Vopsitorie București - Caroserie Premium | Autohub Pipera",
+    metaTitle: "Tinichigerie & Vopsitorie București | Autohub Pipera",
     metaDescription:
       "Tinichigerie, vopsitorie auto și detailing în București. Îndreptare caroserie, polish, ceramic coating, PDR, folii protecție. Autohub Service Pipera.",
     image: bodyworkImg,
@@ -174,8 +172,7 @@ export const services: Service[] = [
     icon: ShieldCheck,
     title: "Daune & Asigurare",
     subtitle: "Gestionăm Tot Procesul. Fără Complicații pentru Tine.",
-    metaTitle:
-      "Daune & Asigurări Auto București - Gestionare Completă | Autohub Pipera",
+    metaTitle: "Daune & Asigurări Auto București | Autohub Pipera",
     metaDescription:
       "Gestionare completă dosare daune auto în București. Constatare, comunicare asigurator, reparație. Tu predai mașina, noi facem restul. Autohub Pipera.",
     image: null,
@@ -212,8 +209,7 @@ export const services: Service[] = [
     icon: CircleDot,
     title: "Vulcanizare",
     subtitle: "Anvelope și Jante - Servicii Complete",
-    metaTitle:
-      "Vulcanizare București - Anvelope & Jante | Autohub Service Pipera",
+    metaTitle: "Vulcanizare București | Autohub Service Pipera",
     metaDescription:
       "Vulcanizare profesională în București. Montaj anvelope, echilibrare, geometrie 3D, vânzare anvelope noi. Prețuri corecte la Autohub Service Pipera.",
     image: tiresImg,
@@ -250,8 +246,7 @@ export const services: Service[] = [
     icon: ClipboardCheck,
     title: "ITP",
     subtitle: "Inspecție Tehnică Rapidă și Corectă",
-    metaTitle:
-      "ITP București - Inspecție Tehnică Periodică | Autohub Service Pipera",
+    metaTitle: "ITP București | Autohub Service Pipera",
     metaDescription:
       "ITP rapid și corect în București zona Pipera. Pregătire prealabilă, remediere probleme, inspecție tehnică periodică. Autohub Service Pipera.",
     image: null,
@@ -286,8 +281,7 @@ export const services: Service[] = [
     icon: Cog,
     title: "Piese Auto",
     subtitle: "Piese Originale și Aftermarket, Garantate",
-    metaTitle:
-      "Piese Auto București - Originale & Aftermarket | Autohub Service Pipera",
+    metaTitle: "Piese Auto București | Autohub Service Pipera",
     metaDescription:
       "Piese auto originale și aftermarket premium în București. Garanție inclusă, prețuri competitive. Comandă și montaj la Autohub Service Pipera.",
     image: null,

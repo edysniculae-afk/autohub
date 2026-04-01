@@ -23,6 +23,7 @@ export default function HeroSection() {
             alt="Autohub Service Pipera"
             className="h-20 md:h-28 lg:h-36 w-auto mx-auto md:mx-0"
           />
+          <span className="sr-only">Autohub Service Pipera - Service Auto Premium București</span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10">
           Service auto în București zona Pipera. Mecanică, electrică, tinichigerie & vopsitorie  - totul sub un singur acoperiș.
