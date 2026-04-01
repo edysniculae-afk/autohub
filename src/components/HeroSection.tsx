@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, PhoneCall } from "lucide-react";
 import heroImg from "@/assets/hero-service.jpg";
+import logo from "@/assets/logo-autohub.png";
 
 export default function HeroSection() {
   return (
@@ -16,13 +17,12 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-background/70 to-transparent" />
 
       <div className="relative z-10 container mx-auto px-4 md:px-8 text-center md:text-left max-w-5xl">
-        <h1
-          className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6"
-          style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-        >
-          <span className="text-primary">Autohub</span> Service
-          <br />
-          <span className="text-muted-foreground">Pipera</span>
+        <h1 className="mb-6">
+          <img
+            src={logo}
+            alt="Autohub Service Pipera"
+            className="h-20 md:h-28 lg:h-36 w-auto mx-auto md:mx-0"
+          />
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10">
           Service auto în București zona Pipera. Mecanică, electrică, tinichigerie & vopsitorie  - totul sub un singur acoperiș.
