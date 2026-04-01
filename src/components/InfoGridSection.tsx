@@ -103,7 +103,7 @@ export default function InfoGridSection() {
               Ușor de ajuns. Rapid de rezolvat.
             </h3>
             <p className="text-muted-foreground">
-              📍 Șoseaua Petricani nr. 86A, București — Acces rapid din Sector 1 și Sector 2 • Zonă Pipera – Barbu Văcărescu – Tei
+              📍 Șoseaua Petricani nr. 86A, București  - Acces rapid din Sector 1 și Sector 2 • Zonă Pipera – Barbu Văcărescu – Tei
             </p>
           </div>
         </div>

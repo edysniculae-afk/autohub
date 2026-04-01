@@ -86,7 +86,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                La Autohub, nu oferim doar reparații — oferim liniște, siguranță
+                La Autohub, nu oferim doar reparații  - oferim liniște, siguranță
                 și transparență. Fiecare mașină care intră în service este
                 tratată cu responsabilitate maximă, indiferent de complexitatea
                 lucrării.
@@ -99,7 +99,7 @@ export default function About() {
               </p>
               <p>
                 Prin integrarea serviciilor de mecanică, electrică și estetică
-                auto (prin Central Paint Service), oferim un flux complet — de
+                auto (prin Central Paint Service), oferim un flux complet  - de
                 la diagnostic la livrarea finală. Lucrăm cu toate mărcile auto,
                 de la vehicule de oraș la SUV-uri premium și utilitare.
               </p>

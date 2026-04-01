@@ -25,7 +25,7 @@ export default function HeroSection() {
           <span className="text-muted-foreground">Pipera</span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10">
-          Service auto în București zona Pipera. Mecanică, electrică, tinichigerie & vopsitorie — totul sub un singur acoperiș.
+          Service auto în București zona Pipera. Mecanică, electrică, tinichigerie & vopsitorie  - totul sub un singur acoperiș.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a href="tel:+40748018401">

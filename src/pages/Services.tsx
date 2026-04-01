@@ -48,7 +48,7 @@ export default function Services() {
             Servicii Auto Complete
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl">
-            De la mecanică și electrică, la tinichigerie, vopsitorie și ITP —
+            De la mecanică și electrică, la tinichigerie, vopsitorie și ITP  -
             totul într-un singur loc, la Autohub Service Pipera.
           </p>
         </div>

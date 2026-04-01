@@ -22,7 +22,7 @@ export default function ContactSection() {
             Ai o problemă sau vrei doar o verificare?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Nu aștepta să devină costisitoare. Autohub Service Pipera — soluții corecte, fără complicații.
+            Nu aștepta să devină costisitoare. Autohub Service Pipera  - soluții corecte, fără complicații.
           </p>
         </div>
 

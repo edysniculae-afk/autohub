@@ -59,7 +59,7 @@ const services = [
   {
     icon: CircleDot,
     title: "Vulcanizare",
-    subtitle: "Anvelope și Jante — Servicii Complete",
+    subtitle: "Anvelope și Jante  - Servicii Complete",
     image: tiresImg,
     items: [
       "Montaj anvelope", "Echilibrare", "Geometrie",
@@ -155,7 +155,7 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
         </div>
 
         {service.image && isEven && (
-          <div className="relative">
+          <div className="hidden md:block relative">
             <div className="absolute -inset-3 bg-gradient-to-br from-primary/10 to-transparent rounded-xl blur-xl" />
             <img
               src={service.image}
@@ -199,7 +199,7 @@ export default function ServicesSection() {
             <span className="text-muted-foreground"> mașina ta</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            De la mecanică și electrică, la tinichigerie, vopsitorie și ITP — totul într-un singur loc.
+            De la mecanică și electrică, la tinichigerie, vopsitorie și ITP  - totul într-un singur loc.
           </p>
         </div>
 

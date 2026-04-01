@@ -149,7 +149,7 @@ export default function Contact() {
             />
           </div>
           <p className="text-muted-foreground mt-4 text-sm">
-            {BUSINESS.address.street}, {BUSINESS.address.city} — Zone deservite:{" "}
+            {BUSINESS.address.street}, {BUSINESS.address.city}  - Zone deservite:{" "}
             {BUSINESS.areasServed.join(", ")}
           </p>
         </div>

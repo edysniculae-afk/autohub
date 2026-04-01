@@ -36,13 +36,13 @@ export default function AboutSection() {
           </h2>
           <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
             <p>
-              La Autohub, nu oferim doar reparații — oferim liniște, siguranță și transparență. Fiecare mașină care intră în service este tratată cu responsabilitate maximă, indiferent de complexitatea lucrării.
+              La Autohub, nu oferim doar reparații  - oferim liniște, siguranță și transparență. Fiecare mașină care intră în service este tratată cu responsabilitate maximă, indiferent de complexitatea lucrării.
             </p>
             <p>
               Operăm în nordul Bucureștiului, deservind clienți din Sector 1 și Sector 2, într-o locație modernă, echipată conform standardelor actuale din industrie.
             </p>
             <p>
-              Prin integrarea serviciilor de mecanică, electrică și estetică auto (prin Central Paint Service), oferim un flux complet — de la diagnostic la livrarea finală.
+              Prin integrarea serviciilor de mecanică, electrică și estetică auto (prin Central Paint Service), oferim un flux complet  - de la diagnostic la livrarea finală.
             </p>
           </div>
         </div>

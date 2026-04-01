@@ -4,7 +4,7 @@ import { User, Car, Smartphone, Building2, Warehouse } from "lucide-react";
 const clients = [
   { icon: User, title: "Clienți individuali", desc: "Persoane fizice cu orice tip de vehicul" },
   { icon: Car, title: "Flote auto", desc: "Mentenanță completă pentru parcuri auto" },
-  { icon: Smartphone, title: "Ride-sharing", desc: "Uber, Bolt — intervenții rapide" },
+  { icon: Smartphone, title: "Ride-sharing", desc: "Uber, Bolt  - intervenții rapide" },
   { icon: Building2, title: "Leasing & firme", desc: "Colaborări cu companii de leasing" },
   { icon: Warehouse, title: "Companii cu parc auto", desc: "Soluții personalizate pe termen lung" },
 ];
