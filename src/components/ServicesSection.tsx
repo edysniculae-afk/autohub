@@ -146,7 +146,7 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
 
           {service.cta && (
             <a
-              href="#contact"
+              href="/contact"
               className="inline-block mt-6 text-primary font-medium hover:underline underline-offset-4"
             >
               {service.cta} →

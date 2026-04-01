@@ -1,22 +1,34 @@
+import { Link } from "react-router-dom";
 import { MapPin, Phone } from "lucide-react";
 import logo from "@/assets/logo-autohub.png";
 
-const quickLinks = [
-  { label: "Mecanică Auto", href: "#servicii" },
-  { label: "Electrică Auto", href: "#servicii" },
-  { label: "Tinichigerie & Vopsitorie", href: "#servicii" },
-  { label: "ITP", href: "#servicii" },
-  { label: "Vulcanizare", href: "#servicii" },
-  { label: "Piese Auto", href: "#servicii" },
+const serviceLinks = [
+  { label: "Mecanică Auto", href: "/servicii/mecanica-auto" },
+  { label: "Electrică Auto", href: "/servicii/electrica-auto" },
+  { label: "Tinichigerie & Vopsitorie", href: "/servicii/tinichigerie-vopsitorie" },
+  { label: "Daune & Asigurare", href: "/servicii/daune-asigurare" },
+  { label: "ITP", href: "/servicii/itp" },
+  { label: "Vulcanizare", href: "/servicii/vulcanizare" },
+  { label: "Piese Auto", href: "/servicii/piese-auto" },
+];
+
+const siteLinks = [
+  { label: "Acasă", href: "/" },
+  { label: "Despre Noi", href: "/despre" },
+  { label: "Toate Serviciile", href: "/servicii" },
+  { label: "Întrebări Frecvente", href: "/intrebari-frecvente" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-card/50">
       <div className="container mx-auto px-4 md:px-8 py-16">
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-4 gap-12">
           <div>
-            <img src={logo} alt="Autohub Service Pipera" className="h-12 w-auto mb-4" />
+            <Link to="/">
+              <img src={logo} alt="Autohub Service Pipera" className="h-12 w-auto mb-4" />
+            </Link>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Service auto premium în București. Calitate de dealer, prețuri corecte, comunicare transparentă.
             </p>
@@ -25,10 +37,21 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4">Servicii</h4>
             <div className="grid grid-cols-1 gap-2">
-              {quickLinks.map((l) => (
-                <a key={l.label} href={l.href} className="text-muted-foreground hover:text-primary transition-colors text-sm">
+              {serviceLinks.map((l) => (
+                <Link key={l.label} to={l.href} className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   {l.label}
-                </a>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-lg mb-4">Navigare</h4>
+            <div className="grid grid-cols-1 gap-2">
+              {siteLinks.map((l) => (
+                <Link key={l.label} to={l.href} className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  {l.label}
+                </Link>
               ))}
             </div>
           </div>
@@ -48,7 +71,6 @@ export default function Footer() {
               </div>
               <div className="pt-2 text-muted-foreground text-sm">
                 <p>Luni – Vineri: 08:00 – 18:00</p>
-                
               </div>
             </div>
           </div>
