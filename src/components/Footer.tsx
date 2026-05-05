@@ -14,6 +14,7 @@ const serviceLinks = [
 
 const siteLinks = [
   { label: "Acasă", href: "/" },
+  { label: "Service Auto Pipera", href: "/service-auto-pipera" },
   { label: "Despre Noi", href: "/despre" },
   { label: "Toate Serviciile", href: "/servicii" },
   { label: "Întrebări Frecvente", href: "/intrebari-frecvente" },

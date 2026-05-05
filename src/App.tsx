@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import ServiceDetail from "./pages/ServiceDetail";
+import ServicePiperaLanding from "./pages/ServicePiperaLanding";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/despre" element={<About />} />
             <Route path="/servicii" element={<Services />} />
             <Route path="/servicii/:slug" element={<ServiceDetail />} />
+            <Route path="/service-auto-pipera" element={<ServicePiperaLanding />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/intrebari-frecvente" element={<FAQ />} />
             <Route path="*" element={<NotFound />} />
